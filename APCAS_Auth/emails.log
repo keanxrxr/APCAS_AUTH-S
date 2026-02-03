@@ -1,0 +1,30 @@
+[2026-01-29 15:31:13] TO: keaniel.bautista.bonilla@apcas.ph.education | SUBJECT: APCAS - Password Reset Request | MESSAGE: 
+        <h2>Password Reset Request</h2>
+        <p>We received a request to reset your password.</p>
+        <p><a href='http://localhost/School/reset_password.php?email=keaniel.bautista.bonilla%40apcas.ph.education&token=bd1b017538ad52c99ca4a8a737e99da8cd657ccc0994b2bfe28dcf22fe095926'>Click here to reset your password</a></p>
+        <p>If you didn't request this, you can ignore this email.</p>
+        <p>Best regards,<br>APCAS Team</p>
+        
+[2026-01-29 15:31:16] TO: keaniel.bautista.bonilla@apcas.ph.education | SUBJECT: APCAS - Password Reset Request | MESSAGE: 
+        <h2>Password Reset Request</h2>
+        <p>We received a request to reset your password.</p>
+        <p><a href='http://localhost/School/reset_password.php?email=keaniel.bautista.bonilla%40apcas.ph.education&token=ea5f668ec1aa4ca2776331b8f01e2602fd616603e8f4b2d9bde9901db57f1846'>Click here to reset your password</a></p>
+        <p>If you didn't request this, you can ignore this email.</p>
+        <p>Best regards,<br>APCAS Team</p>
+        
+[2026-02-03 09:03:15] TO: keaniel.bautista.bonilla@apcas.ph.education | SUBJECT: Welcome to APCAS - Registration Successful | MESSAGE: 
+        <h2>Welcome to APCAS!</h2>
+        <p>Thank you for registering with us.</p>
+        <p><strong>Email:</strong> keaniel.bautista.bonilla@apcas.ph.education</p>
+        <p>You can now log in with your credentials.</p>
+        <p><a href='http://localhost/School/index.php'>Click here to login</a></p>
+        <p>Best regards,<br>APCAS Team</p>
+        
+[2026-02-03 09:06:18] TO: keaniel.bautista.bonilla@apcas.ph.education | SUBJECT: Welcome to APCAS - Registration Successful | MESSAGE: 
+        <h2>Welcome to APCAS!</h2>
+        <p>Thank you for registering with us.</p>
+        <p><strong>Email:</strong> keaniel.bautista.bonilla@apcas.ph.education</p>
+        <p>You can now log in with your credentials.</p>
+        <p><a href='http://localhost/School/index.php'>Click here to login</a></p>
+        <p>Best regards,<br>APCAS Team</p>
+        

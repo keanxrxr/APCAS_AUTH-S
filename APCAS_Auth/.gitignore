@@ -1,0 +1,16 @@
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+config.php
+*.env
+.env
+
+# Dependencies
+node_modules/
+vendor/

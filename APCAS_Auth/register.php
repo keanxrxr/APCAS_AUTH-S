@@ -1,0 +1,48 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>APCAS – Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <h2>Sign Up</h2>
+
+  <?php if (isset($_GET['error'])): ?>
+    <div class="error"><?= htmlspecialchars($_GET['error']) ?></div>
+  <?php endif; ?>
+
+  <?php if (isset($_GET['success'])): ?>
+    <div class="success"><?= htmlspecialchars($_GET['success']) ?></div>
+  <?php endif; ?>
+
+  <form action="process.php" method="POST">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com">
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required minlength="8">
+    </div>
+
+    <div class="form-group">
+      <label for="password2">Repeat Password</label>
+      <input type="password" id="password2" name="password2" required>
+    </div>
+
+    <button type="submit" class="btn" name="register">Sign Up</button>
+    <button type="button" class="btn btn-cancel" onclick="window.location='index.php'">Cancel</button>
+  </form>
+
+  <div class="center">
+    Already have an account? <a href="index.php">Login</a>
+  </div>
+</div>
+
+</body>
+</html>
